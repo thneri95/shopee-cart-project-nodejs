@@ -7,8 +7,8 @@ We will create the logic behind the Shopee shopping cart, where the cart stores 
 Before starting this content, you need to have prior knowledge in the following areas:
 
 - JavaScript | Intermediate
-- Node | Basic
-- Modularization | Basic
+- Node | Intermediate
+- Modularization
 
 - [Other prerequisites]
 
