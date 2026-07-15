@@ -1,4 +1,4 @@
-//wich actions can be performed on the cart
+//wich actions can be performed on the cart?!
 
 // use case: add item, remove item, delete item, display cart, calculate total
 
