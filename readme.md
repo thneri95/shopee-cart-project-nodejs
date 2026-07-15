@@ -1,93 +1,32 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>Recriando a lógica do carrinho de compras da Shopee</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
+## 💻 Project Description - By Tiago Neri
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
+We will create the logic behind the Shopee shopping cart, where the cart stores items and automatically calculates the total and sub-item costs;
 
-</p>
+## 📚 Skill Prerequisites and Knowledge Levels
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Felipe Aguiar</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
+Before starting this content, you need to have prior knowledge in the following areas:
 
-<br/>
-<br/>
+- [Required skills or prior knowledge]
 
-## 💻 Descrição Do Projeto
+- JavaScript | Intermediate
+- Node | Basic
+- Modularization | Basic
 
-Vamos criar a lógica por trás do carrinho de compras da shopee, aonde o carrinho armazene itens e faça o cálculo total e de sub-itens automaticamente.
+- [Other prerequisites]
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+- Programming Logic | Intermediate
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+## 🛠️ Skills and Sub-skills covered in this content
 
-- [habilidades ou conhecimentos prévios necessários]
+- Modularization | Intermediate
 
-  - Javascript | Intermediário
-  - Node | Básico
-  - Modularização | Básica
+## 🎯 Objectives and Expected Outcomes
 
-- [Outros pré-requisitos]
+Upon completing the course/project, students will be able to:
 
-  - Lógica de Programação | Intermediário
-
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
-
-- Modularização | Intermediária
-
-## 🎯 Objetivos e Resultados Esperados
-
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
-
-- Modularizar projetos com maior propriedade
-- Como organizar pensamento lógico e funcional
-- Base para organizar projetos
+- Modularize projects with greater proficiency;
+- Organize logical and functional thinking;
+- Establish a foundation for project organization;
 
 <!--START_SECTION:footer-->
 
