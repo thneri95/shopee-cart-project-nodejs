@@ -1,12 +1,12 @@
-//quais açoes meu carrinho pode fazer
+//wich actions can be performed on the cart
 
-//CASOS DE USO
-// ✅ -> adicionar item no carrinho
+// use case: add item, remove item, delete item, display cart, calculate total  
+// ✅ -> add item to the cart
 async function addItem(userCart, item) {
   userCart.push(item);
 }
 
-// ✅ -> calcular o total do carrinho
+// ✅ -> calculate the cart total
 async function calculateTotal(userCart) {
   console.log("\nShopee Cart TOTAL IS:");
 
@@ -14,7 +14,7 @@ async function calculateTotal(userCart) {
   console.log(`🎁Total: ${result}`);
 }
 
-// -> deletar item do carrinho
+// -> delete an item from the cart
 async function deleteItem(userCart, name) {
   const index = userCart.findIndex((item) => item.name === name);
 
@@ -23,37 +23,36 @@ async function deleteItem(userCart, name) {
   }
 }
 
-// -> ✅ remover um item - diminui um item
+// -> ✅ remove an item from the cart
 async function removeItem(userCart, item) {
   //1. encontrar o indice do item
   const indexFound = userCart.findIndex((p) => p.name === item.name);
 
-  //2. Caso não encontre o item
+  //2. If the item is not found
   if (indexFound == -1) {
-    console.log("item não encontrado");
+    console.log("item not found");
     return;
   }
 
-  //3. item > 1 subtrair um item
+  //3. if item quantity > 1, subtract one item
   if (userCart[indexFound].quantity > 1) {
     userCart[indexFound].quantity -= 1;
     return;
   }
 
-  //4. caso item = 1 deletar o item
+  //4. if item quantity = 1, delete the item
   if (userCart[indexFound].quantity == 1) {
     userCart.splice(indexFound, 1);
     return;
   }
 }
 
-// ✅ mostra todos os items do carrinho
+// ✅ display all items in the cart
 async function displaycart(userCart) {
   console.log("\nShopee cart list:");
   userCart.forEach((item, index) => {
     console.log(
-      `${index + 1}. ${item.name} - R$ ${item.price} | ${
-        item.quantity
+      `${index + 1}. ${item.name} - R$ ${item.price} | ${item.quantity
       }x | Subtotal = ${item.subtotal()}`
     );
   });
