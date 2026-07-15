@@ -6,8 +6,6 @@ We will create the logic behind the Shopee shopping cart, where the cart stores 
 
 Before starting this content, you need to have prior knowledge in the following areas:
 
-- [Required skills or prior knowledge]
-
 - JavaScript | Intermediate
 - Node | Basic
 - Modularization | Basic
