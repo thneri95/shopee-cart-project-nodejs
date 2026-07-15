@@ -2,12 +2,12 @@
 
 // use case: add item, remove item, delete item, display cart, calculate total
 
-// ✅ -> add item to the cart
+//  -> add item to the cart
 async function addItem(userCart, item) {
   userCart.push(item);
 }
 
-// ✅ -> calculate the cart total
+//  -> calculate the cart total
 async function calculateTotal(userCart) {
   console.log("\nShopee Cart TOTAL IS:");
 
