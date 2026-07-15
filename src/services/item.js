@@ -1,6 +1,6 @@
-//CASOS DE USO DOS ITENS
+//use case: create item with correct subtotal!!!
 
-// -> criar item com subtotal certo
+// -> create an item with name, price, quantity and subtotal xD
 async function createItem(name, price, quantity) {
   return {
     name,
